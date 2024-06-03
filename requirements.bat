@@ -1,1 +1,0 @@
-pip install woocommerce requests ftputil
