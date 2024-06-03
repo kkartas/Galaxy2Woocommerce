@@ -46,7 +46,13 @@
        "woocommerce_url": "your_woocommerce_store_url"
      }
      ```
+2. **Database Setup**
 
+    - The project uses SQLite by default. Ensure db.sqlite3 exists in the project root. If not, create it by running:
+    ```bash
+    python manage.py migrate
+    ```
+    
 ## Usage
 
 1. **Run the Application**
